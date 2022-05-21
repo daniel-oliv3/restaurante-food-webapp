@@ -13,6 +13,8 @@ import { PopularComponent } from './popular/popular.component';
 import { BannerComponent } from './banner/banner.component';
 import { MenuComponent } from './menu/menu.component';
 import { OrdersComponent } from './orders/orders.component';
+import { BlogsComponent } from './blogs/blogs.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { OrdersComponent } from './orders/orders.component';
     PopularComponent,
     BannerComponent,
     MenuComponent,
-    OrdersComponent
+    OrdersComponent,
+    BlogsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
