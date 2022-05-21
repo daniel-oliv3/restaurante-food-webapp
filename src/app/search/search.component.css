@@ -1,0 +1,38 @@
+/* Search Form / Formulario de Pesquisa */
+.search-form-container {
+  position: fixed;
+  top: 8.5rem;
+  left: 0;
+  right: 0;
+  height: calc(100vh - 8.5rem);
+  background: #fff;
+  display: none;
+  z-index: 1000;
+}
+.search-form-container.active {
+  display: block;
+}
+.search-form-container form {
+  height: 7rem;
+  border-bottom: 0.2rem solid #130f40;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  animation: fadeUp 0.4s linear;
+}
+.search-form-container form input {
+  height: 100%;
+  width: 100%;
+  font-size: 1.7rem;
+  color: #130f40;
+  text-transform: none;
+  padding-right: 1rem;
+}
+.search-form-container form label {
+  font-size: 3rem;
+  cursor: pointer;
+  color: #130f40;
+}
+.search-form-container form label:hover {
+  color: #27ae60;
+}
