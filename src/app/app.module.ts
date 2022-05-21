@@ -10,6 +10,8 @@ import { SearchComponent } from './search/search.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { PopularComponent } from './popular/popular.component';
+import { BannerComponent } from './banner/banner.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { PopularComponent } from './popular/popular.component';
     SearchComponent,
     HomeComponent,
     AboutComponent,
-    PopularComponent
+    PopularComponent,
+    BannerComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
