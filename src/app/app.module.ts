@@ -12,6 +12,7 @@ import { AboutComponent } from './about/about.component';
 import { PopularComponent } from './popular/popular.component';
 import { BannerComponent } from './banner/banner.component';
 import { MenuComponent } from './menu/menu.component';
+import { OrdersComponent } from './orders/orders.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { MenuComponent } from './menu/menu.component';
     AboutComponent,
     PopularComponent,
     BannerComponent,
-    MenuComponent
+    MenuComponent,
+    OrdersComponent
   ],
   imports: [
     BrowserModule,
