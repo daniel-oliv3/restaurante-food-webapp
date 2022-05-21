@@ -1,0 +1,42 @@
+/* ======= Home Section/Seção inicial ======= */
+.home {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  gap: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+.home .content {
+  flex: 1 1 41rem;
+}
+.home .content span {
+  font-size: 2rem;
+  color: #27ae60;
+}
+.home .content h3 {
+  font-size: 4rem;
+  color: #130f40;
+  padding-top: 1rem;
+}
+.home .content p {
+  font-size: 1.4rem;
+  color: #666;
+  line-height: 2;
+  padding: 1rem 0;
+}
+.home .image {
+  flex: 1 1 41rem;
+  margin: 2rem 0;
+  pointer-events: none;
+}
+.home .image .home-img {
+  width: 100%;
+  margin-top: 5rem;
+}
+.home .home-parallax-img {
+  position: absolute;
+  top: -10rem;
+  right: -10rem;
+  width: 80vw;
+}
