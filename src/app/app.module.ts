@@ -15,6 +15,7 @@ import { MenuComponent } from './menu/menu.component';
 import { OrdersComponent } from './orders/orders.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { FooterComponent } from './footer/footer.component';
+import { ScriptComponent } from './script/script.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { FooterComponent } from './footer/footer.component';
     MenuComponent,
     OrdersComponent,
     BlogsComponent,
-    FooterComponent
+    FooterComponent,
+    ScriptComponent
   ],
   imports: [
     BrowserModule,
